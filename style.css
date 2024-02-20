@@ -3,7 +3,7 @@
 
   width: 400px;
   height: 400px;
-  margin: 20px;
+  margin-top: 20px;
 }
 body {
   display: flex;
@@ -11,8 +11,8 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #561c24;
-  padding: 20px;
   font-family: Arial, sans-serif;
+  margin: 0;
 }
 
 button {
@@ -25,7 +25,7 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  margin: 4px 5px;
+  margin: 20px 5px;
   cursor: pointer;
 }
 
@@ -33,12 +33,16 @@ button:hover {
   background-color: #e8d8c4;
 }
 
-.col:hover {
-  background-color: #c7b7a3;
-}
-
 h1 {
   color: #e8d8c4;
   font-size: 50px;
   margin: auto;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #c7b7a3;
+  color: #561c24;
+  text-align: center;
 }
